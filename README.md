@@ -6,6 +6,7 @@ My perfect zsh/vim configs.
 
 ![Image of Yaktocat](1.png)
 
+Requires [Nerd fonts](https://github.com/ryanoasis/nerd-fonts)
 
 ## Quick start
 
