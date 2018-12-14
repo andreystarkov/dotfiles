@@ -1,15 +1,6 @@
 #!/bin/bash
 
-if [[ ! -f $HOME/.zgen/zgen.zsh ]]; then
-  git clone https://github.com/tarjoilija/zgen $HOME/.zgen
-fi
-
-if ! [ -x "$(command -v colorls)" ]; then
-  brew install colorls
-fi
-
-curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
-    https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+bash ./install.sh
 
 rm -rf ~/.zshrc ~/.zsh_aliases ~/.zsh_functions ~/.zgen-setup
 
@@ -21,7 +12,10 @@ ln -s ~/dotfiles/vimrc.js/vimrc ~/.vimrc
 ln -s ~/dotfiles/vimrc.js ~/.vimrc.js
 
 mkdir -p ~/.config
+mkdir -p ~/.config/nvim§
 
+ln -s ~/dotfiles/nvim/init.vim ~/.config/nvim/init.vim
+§
 ln -s ~/dotfiles/colorls ~/.config/colorls
 
 zsh

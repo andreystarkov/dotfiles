@@ -283,9 +283,9 @@ POWERLEVEL9K_RAM_FOREGROUND="green"
 POWERLEVEL9K_RAM_ELEMENTS="ram_free"
 
 # fc01 - gun
-POWERLEVEL9K_LOAD_ICON="\ufd2a" # "\uf608" # "\uf8c7 " # '\ue7ba' # '\uf20e'
+POWERLEVEL9K_LOAD_ICON="\ue238" #"\ufd2a" # "\uf608" # "\uf8c7 " # '\ue7ba' # '\uf20e'
 POWERLEVEL9K_DISK_USAGE_ICON='\uf2c7' # '\uf20e'
-POWERLEVEL9K_RAM_ICON="\ue238" # '\ue28c' # # '\uf20e'
+POWERLEVEL9K_RAM_ICON="\uf85a" # "\ue238" # '\ue28c' # # '\uf20e'
 POWERLEVEL9K_TIME_ICON="\uf64f"
 
 POWERLEVEL9K_VCS_MODIFIED_BACKGROUND="clear"
@@ -338,3 +338,5 @@ POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(time load ram battery public_ip rspec_stats v
 POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=()
 
 POWERLEVEL9K_VCS_GIT_HOOKS=(vcs-detect-changes git-untracked git-aheadbehind git-remotebranch git-tagname)
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
