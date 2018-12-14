@@ -14,7 +14,7 @@ My awesome configs. Work in progress.
 
 ## Quick start
 
-Requires [Nerd fonts] (https://github.com/ryanoasis/nerd-fonts)
+Requires [Nerd fonts](https://github.com/ryanoasis/nerd-fonts)
 
 ```bash
   git clone https://github.com/andreystarkov/dotfiles ~/dotfiles
