@@ -1,8 +1,6 @@
 # Dotfiles
 
-My perfect zsh/vim configs.
-
-*Oh-my-zsh/zgen/powerlevel9k/colorls/vim.js*
+My awesome configs. Work in progress.
 
 ![Image of Yaktocat](1.png)
 

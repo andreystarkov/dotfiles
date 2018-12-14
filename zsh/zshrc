@@ -233,7 +233,7 @@ dedupe_path
 # If desk is installed, load the Hook for desk activation
 [[ -n "$DESK_ENV" ]] && source "$DESK_ENV"
 
-alias ls='colorls'
+# alias ls='colorls'
 alias lc='colorls -lA --sd'
 alias l='colorls'
 
@@ -315,9 +315,9 @@ ICON_THERMO='\uf2c7'
 POWERLEVEL9K_PROMPT_ON_NEWLINE=true
 POWERLEVEL9K_RPROMPT_ON_NEWLINE=true
 
-POWERLEVEL9K_HOME_ICON='\ufd25'
+# POWERLEVEL9K_HOME_ICON='\ufd25'
 POWERLEVEL9K_FOLDER_ICON='\uf114' # f07b
-POWERLEVEL9K_HOME_ICON=''
+POWERLEVEL9K_HOME_ICON='\uf643'
 POWERLEVEL9K_HOME_SUB_ICON=''
 POWERLEVEL9K_ETC_ICON=''
 
@@ -328,7 +328,13 @@ POWERLEVEL9K_RIGHT_SUBSEGMENT_SEPARATOR=''
 POWERLEVEL9K_MULTILINE_FIRST_PROMPT_PREFIX="%F{green1}\ufca4%F{white}"
 POWERLEVEL9K_MULTILINE_LAST_PROMPT_PREFIX="%F{mediumspringgreen}\uf197%F{white}  "
 POWERLEVEL9K_RAM_ELEMENTS=(ram_free)
-POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(time load ram newline root_indicator dir dir_writable_joined vcs)
+POWERLEVEL9K_BATTERY_ICON='\uf0e7'
+POWERLEVEL9K_BATTERY_BACKGROUND='clear'
+
+POWERLEVEL9K_PUBLIC_IP_ICON='\uf530'
+POWERLEVEL9K_PUBLIC_IP_BACKGROUND='clear'
+POWERLEVEL9K_NODE_VERSION_ICON='\ue718'
+POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(time load ram battery public_ip rspec_stats vpn_ip docker_machine nodeenv newline root_indicator dir dir_writable_joined vcs rspec_stats)
 POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=()
 
 POWERLEVEL9K_VCS_GIT_HOOKS=(vcs-detect-changes git-untracked git-aheadbehind git-remotebranch git-tagname)
