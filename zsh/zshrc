@@ -1,5 +1,6 @@
 export LANG=en_US.UTF-8
 export LC_ALL=en_US.UTF-8
+source "${HOME}/.zgen/zgen.zsh"
 
 if [[ -r ~/.powerlevel9k_font_mode ]]; then
   POWERLEVEL9K_MODE=$(head -1 ~/.powerlevel9k_font_mode)
