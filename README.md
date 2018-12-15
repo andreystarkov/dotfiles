@@ -8,7 +8,7 @@ My awesome configs. Work in progress.
 
 ![zsh](1.png)
 
-### Vim/Nvim
+## Vim/Nvim
 
   Vim-Plug, Dracula theme, [JS Dev Setup](https://github.com/andreystarkov/dotfiles/blob/master/nvim/init.vim)
 
