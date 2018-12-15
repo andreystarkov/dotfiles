@@ -240,3 +240,22 @@ test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell
 source "${HOME}/dotfiles/zsh/powerlevel9/defaulttheme.zsh"
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
+# zsh-iterm-touchbar config
+# https://github.com/iam4x/zsh-iterm-touchbar
+
+TOUCHBAR_GIT_ENABLED=true
+
+# ENV variables for git icons:
+
+GIT_UNCOMMITTED="+"
+GIT_UNSTAGED="!"
+GIT_UNTRACKED="?"
+GIT_STASHED="$"
+GIT_UNPULLED="⇣"
+GIT_UNPUSHED="⇡"
+
+# ENV variables to enable or disable yarn:
+
+YARN_ENABLED=true
+# eval $(dircolors -b $HOME/.dircolors)

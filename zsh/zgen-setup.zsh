@@ -71,7 +71,6 @@ load-starter-plugin-list() {
   # zgen load unixorn/rake-completion.zshplugin
   zgen load unixorn/autoupdate-zgen
   # zgen load unixorn/jpb.zshplugin
-  zgen load unixorn/warhol.plugin.zsh
   zgen load unixorn/tumult.plugin.zsh
   zgen load djui/alias-tips
   zgen load unixorn/git-extra-commands
@@ -88,7 +87,13 @@ load-starter-plugin-list() {
   zgen load unixorn/tumult.plugin.zsh
   zgen load srijanshetty/docker-zsh
 
-  if [ $(uname -a | grep -ci Darwin) = 1 ]; then
+  zgen load zdharma/fast-syntax-highlighting
+  zgen load oldratlee/hacker-quotes
+  zgen load tysonwolker/iterm-tab-colors
+  zgen load b4b4r07/emoji-cli
+  zgen load Tarrasch/zsh-autoenv
+
+    if [ $(uname -a | grep -ci Darwin) = 1 ]; then
     zgen oh-my-zsh plugins/brew
     # zgen oh-my-zsh plugins/brew-cask
     zgen oh-my-zsh plugins/osx
