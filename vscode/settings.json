@@ -1,0 +1,225 @@
+{
+  "editor.fontFamily": "Fira Code",
+  "editor.fontLigatures": true,
+  "editor.fontSize": 15,
+  "editor.lineHeight": 23,
+  "editor.tabSize": 2,
+  "editor.renderWhitespace": "all",
+  "editor.minimap.enabled": false,
+  "editor.renderIndentGuides": false,
+  "editor.formatOnPaste": false,
+  "editor.formatOnSave": false,
+  "editor.renderLineHighlight": "line",
+  "editor.hideCursorInOverviewRuler": true,
+  "editor.scrollBeyondLastLine": false,
+  "editor.matchBrackets": true,
+  "editor.occurrencesHighlight": false,
+  "editor.overviewRulerBorder": false,
+  "editor.overviewRulerLanes": 0,
+  "editor.folding": false,
+  "editor.snippetSuggestions": "top",
+  "editor.lightbulb.enabled": false,
+  "editor.lineNumbers": "on",
+  "editor.cursorBlinking": "solid",
+  "editor.cursorStyle": "line",
+  "editor.accessibilitySupport": "off",
+  "editor.codeLens": true,
+  "editor.colorDecorators": true,
+  "editor.dragAndDrop": false,
+  "editor.glyphMargin": true,
+  "cSpell.language": "en,ru,en-GB,en-US",
+  "cSpell.showStatus": false,
+  "debug.allowBreakpointsEverywhere": true,
+
+  "workbench.tree.horizontalScrolling": true,
+  "workbench.statusBar.feedback.visible": false,
+  "workbench.fontAliasing": "antialiased",
+  "workbench.activityBar.visible": true,
+  "workbench.settings.editor": "json",
+  "workbench.colorTheme": "lucy",
+  "workbench.editor.showIcons": true,
+  "workbench.iconTheme": "vscode-great-icons",
+  "workbench.settings.enableNaturalLanguageSearch": false,
+  "workbench.editor.labelFormat": "short",
+  "workbench.startupEditor": "none",
+
+  // "workbench.startupEditor": "newUntitledFile",
+  "workbench.tips.enabled": false,
+  // "workbench.colorCustomizations": {
+  //   "gitDecoration.modifiedResourceForeground": "#d4cb68"
+  // },
+
+  "window.clickThroughInactive": false,
+  "window.zoomLevel": 0,
+  "window.restoreWindows": "all",
+  "window.title": "${activeEditorMedium}${separator}${rootName}",
+  "window.newWindowDimensions": "maximized",
+
+  "debug.openDebug": "neverOpen",
+  "debug.showInStatusBar": "never",
+  "debug.toolBarLocation": "hidden",
+
+  "terminal.integrated.copyOnSelection": true,
+  // "terminal.integrated.env.osx": {
+  // },
+
+  "files.trimTrailingWhitespace": true,
+  "files.insertFinalNewline": true,
+
+  "breadcrumbs.enabled": true,
+
+  "explorer.confirmDelete": false,
+  "explorer.decorations.badges": false,
+  "explorer.openEditors.visible": 0,
+
+  "extensions.ignoreRecommendations": true,
+
+  "code-runner.runInTerminal": false,
+
+  "eslint.autoFixOnSave": false,
+  "eslint.enable": true,
+
+  "prettier.printWidth": 110,
+  "prettier.singleQuote": true,
+  "prettier.trailingComma": "none",
+  "prettier.jsxBracketSameLine": true,
+  "prettier.semi": false,
+  "prettier.useTabs": false,
+  "prettier.eslintIntegration": true,
+
+  // Settings Sync extension
+  "sync.gist": "c5e523ad67b6f416fe2fab36007aad59",
+  "sync.quietSync": false,
+  "sync.askGistName": false,
+  "sync.removeExtensions": true,
+  "sync.syncExtensions": true,
+  "sync.autoDownload": false,
+  "sync.autoUpload": true,
+  "sync.forceDownload": false,
+
+  "git.showInlineOpenFileAction": false,
+  "git.enabled": true,
+  "git.autorefresh": true,
+  "git.autofetch": true,
+
+  "gitlens.menus": {
+    "editor": {
+      "blame": false,
+      "clipboard": true,
+      "compare": true,
+      "details": true,
+      "history": false,
+      "remote": true
+    },
+    "editorGroup": {
+      "blame": true,
+      "compare": true,
+      "history": false,
+      "remote": false
+    },
+    "editorTab": {
+      "compare": false,
+      "history": false,
+      "remote": true
+    }
+  },
+  "gitlens.codeLens.recentChange.enabled": false,
+  "gitlens.codeLens.authors.enabled": false,
+  "gitlens.codeLens.enabled": false,
+  "gitlens.currentLine.enabled": false,
+  "gitlens.hovers.currentLine.over": "line",
+  "gitlens.keymap": "alternate",
+  "gitlens.mode.statusBar.enabled": false,
+  "gitlens.mode.active": "zen",
+  "gitlens.statusBar.enabled": false,
+  "gitlens.advanced.messages": {
+    "suppressShowKeyBindingsNotice": true
+  },
+
+  "emmet.syntaxProfiles": {
+    "javascript": "jsx"
+  },
+  "trailing-spaces.trimOnSave": true,
+  "javascript.updateImportsOnFileMove.enabled": "never",
+
+  // "todo-tree.defaultHighlight": {
+  //     "foreground": "green",
+  //     "type": "none"
+  // },
+  // "todo-tree.customHighlight": {
+  //     "TODO": {},
+  //     "FIXME": {}
+  // }
+  // "workbench.colorCustomizations": {
+      // "editor.background": "#201f22",
+      // "sideBar.background": "#1a1a1d"
+  // },
+
+  "files.associations": {
+    ".babelrc": "jsonc",
+    ".eslintrc": "jsonc",
+    ".zshrc": "shell",
+
+  },
+  "files.exclude": {
+    "**/*.pyc": true,
+    "**/*.a": true,
+    "**/*.class": true,
+    "**/*.db": true,
+    "**/*.dll": true,
+    "**/*.dylib": true,
+    "**/*.egg-info": true,
+    "**/*.exe": true,
+    "**/*.idb": true,
+    "**/*.lib": true,
+    "**/*.ncb": true,
+    "**/*.o": true,
+    "**/*.obj": true,
+    "**/*.pdb": true,
+    "**/*.psd": true,
+    "**/*.pyo": true,
+    "**/*.sdf": true,
+    "**/*.so": true,
+    "**/*.sublime-workspace": true,
+    "**/*.suo": true,
+    "**/.bundle": true,
+    "**/.coverage": true,
+    "**/.DS_Store": true,
+    "**/.expo": true,
+    "**/.git": true,
+    "**/.githooks": true,
+    "**/.hg": true,
+    "**/.pygments-cache": true,
+    "**/.sass-cache": true,
+    "**/.svn": true,
+    "**/.tox": true,
+    "**/.vagrant": true,
+    "**/.venv": true,
+    "**/.virtualenv": true,
+    "**/__pycache__": true,
+    "**/_build": true,
+    "**/_deploy": true,
+    "**/_site": true,
+    "**/backstop_data": true,
+    "**/build": true,
+    "**/coverage": true,
+    "**/css_regression_data": true,
+    "**/CVS": true,
+    "**/db.sqlite3": true,
+    "**/dist": true,
+    "**/env": true,
+    "**/es5": true,
+    "**/node_modules*": true,
+    "**/npm-debug.log*": true,
+    "**/npm-shrinkwrap.json": true,
+    "**/static/**/*.css": false,
+    "**/static/**/*.js": false,
+    "**/static/wagtailadmin": true,
+    "**/tmp": true,
+    "**/var": true,
+    "**/venv": true,
+    "**/www": true,
+    "**/yarn.lock": true,
+  },
+
+}

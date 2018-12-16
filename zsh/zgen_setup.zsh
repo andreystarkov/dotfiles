@@ -134,12 +134,12 @@ if ! zgen saved; then
   setup-zgen-repos
 fi
 
-if [[ -f ~/.zgen-setup ]]; then
-  REAL_ZGEN_SETUP=~/.zgen-setup
+if [[ -f ~/.zgen_setup ]]; then
+  REAL_ZGEN_SETUP=~/.zgen_setup
 fi
 
-if [[ -L ~/.zgen-setup ]]; then
-  REAL_ZGEN_SETUP="$(readlink ~/.zgen-setup)"
+if [[ -L ~/.zgen_setup ]]; then
+  REAL_ZGEN_SETUP="$(readlink ~/.zgen_setup)"
 fi
 
 if [[ -f ~/.zgen-local-plugins ]]; then
@@ -149,7 +149,7 @@ if [[ -L ~/.zgen-local-plugins ]]; then
   REAL_ZGEN_SETUP="${HOME}/$(readlink ~/.zgen-local-plugins)"
 fi
 
-# If .zgen-setup is newer than init.zsh, regenerate init.zsh
+# If .zgen_setup is newer than init.zsh, regenerate init.zsh
 if [ $(get_file_modification_time ${REAL_ZGEN_SETUP}) -gt $(get_file_modification_time ~/.zgen/init.zsh) ]; then
   echo "$(basename ${REAL_ZGEN_SETUP}) updated; creating a new init.zsh"
   setup-zgen-repos
