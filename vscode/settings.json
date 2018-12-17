@@ -42,12 +42,17 @@
   "workbench.settings.enableNaturalLanguageSearch": false,
   "workbench.editor.labelFormat": "short",
   "workbench.startupEditor": "none",
-
-  // "workbench.startupEditor": "newUntitledFile",
   "workbench.tips.enabled": false,
   // "workbench.colorCustomizations": {
   //   "gitDecoration.modifiedResourceForeground": "#d4cb68"
   // },
+
+  "search.showLineNumbers": true,
+  "search.smartCase": true,
+  "search.exclude": {
+    "**/*/__snapshots__": true
+  },
+  "search.location": "panel",
 
   "window.clickThroughInactive": false,
   "window.zoomLevel": 0,
@@ -89,13 +94,13 @@
 
   // Settings Sync extension
   "sync.gist": "c5e523ad67b6f416fe2fab36007aad59",
-  "sync.quietSync": false,
-  "sync.askGistName": false,
   "sync.removeExtensions": true,
   "sync.syncExtensions": true,
   "sync.autoDownload": false,
   "sync.autoUpload": true,
   "sync.forceDownload": false,
+  "sync.quietSync": false,
+  "sync.askGistName": false,
 
   "git.showInlineOpenFileAction": false,
   "git.enabled": true,
@@ -128,14 +133,25 @@
   "gitlens.codeLens.enabled": false,
   "gitlens.currentLine.enabled": false,
   "gitlens.hovers.currentLine.over": "line",
-  "gitlens.keymap": "alternate",
+  "gitlens.keymap": "chorded", // "alternate",
   "gitlens.mode.statusBar.enabled": false,
   "gitlens.mode.active": "zen",
   "gitlens.statusBar.enabled": false,
+  "gitlens.views.fileHistory.enabled": true,
+  "gitlens.views.lineHistory.enabled": true,
+  "gitlens.codeLens.scopes": ["containers", "document"],
   "gitlens.advanced.messages": {
-    "suppressShowKeyBindingsNotice": true
+    "suppressCommitHasNoPreviousCommitWarning": false,
+    "suppressCommitNotFoundWarning": false,
+    "suppressFileNotUnderSourceControlWarning": false,
+    "suppressGitVersionWarning": false,
+    "suppressLineUncommittedWarning": false,
+    "suppressNoRepositoryWarning": false,
+    "suppressResultsExplorerNotice": false,
+    "suppressShowKeyBindingsNotice": true,
+    "suppressUpdateNotice": true,
+    "suppressWelcomeNotice": false
   },
-
   "emmet.syntaxProfiles": {
     "javascript": "jsx"
   },

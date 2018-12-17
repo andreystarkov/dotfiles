@@ -237,7 +237,7 @@ dedupe_path
 
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
 
-source "${HOME}/dotfiles/zsh/powerlevel9/defaulttheme.zsh"
+source "${HOME}/.dotfiles/zsh/powerlevel9/defaulttheme.zsh"
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
