@@ -68,7 +68,7 @@ brew "freetype"
 brew "lame"
 brew "x264"
 brew "xvid"
-brew "ffmpeg"]
+brew "ffmpeg"
 brew "readline"
 brew "libyaml"
 brew "xz"
@@ -239,12 +239,3 @@ cask "font-firacode-nerd-font"
 cask "font-hack-nerd-font"
 cask "font-iosevka-nerd-font"
 
-mas '1Password', id: 1333542190
-mas 'Byword', id: 420212497
-mas 'Giphy Capture', id: 668208984
-mas 'Keynote', id: 409183694
-mas 'Sip', id: 507257563
-mas 'Spark', id: 1176895641
-mas 'The Unarchiver', id: 425424353
-mas 'Things', id: 904280696
-mas 'Tweetbot', id: 1384080005
