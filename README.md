@@ -19,7 +19,7 @@ My awesome configs. Work in progress.
 Requires [Nerd fonts](https://github.com/ryanoasis/nerd-fonts)
 
 ```bash
-  git clone https://github.com/andreystarkov/dotfiles ~/dotfiles
-  cd ~/dotfiles
+  git clone https://github.com/andreystarkov/dotfiles ~/.dotfiles
+  cd ~/.dotfiles
   bash ./setup.sh
 ```
