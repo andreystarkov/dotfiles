@@ -3,7 +3,7 @@ tap 'caskroom/eid'
 tap 'caskroom/fonts'
 tap 'caskroom/versions'
 tap 'homebrew/bundle'
-tap "homebrew/core"
+tap 'homebrew/core'
 tap 'homebrew/services'
 tap 'bramstein/webfonttools'
 tap 'neovim/neovim'
@@ -21,7 +21,7 @@ brew 'diffstat'
 brew 'diffutils'
 
 brew 'aria2'
-brew "ack"
+brew 'ack'
 brew 'argon/mas/mas'
 brew 'pandoc'
 brew 'bash' # Bash 4
@@ -41,49 +41,49 @@ brew 'nano'
 brew 'zsh'
 brew 'zsh-completions'
 brew 'tmux'
-brew "imagemagick"
-brew "jq"
-brew "autoconf"
-brew "automake"
-brew "autossh"
-brew "gcc"
+brew 'imagemagick'
+brew 'jq'
+brew 'autoconf'
+brew 'automake'
+brew 'autossh'
+brew 'gcc'
 brew 'cmake'
-brew "go"
+brew 'go'
 brew 'jpeg'
 brew 'optipng'
 brew 'redis'
-brew "freetype"
+brew 'freetype'
 
-brew "lame"
-brew "x264"
-brew "xvid"
-brew "ffmpeg"
-brew "readline"
-brew "libyaml"
-brew "xz"
+brew 'lame'
+brew 'x264'
+brew 'xvid'
+brew 'ffmpeg'
+brew 'readline'
+brew 'libyaml'
+brew 'xz'
 
-brew "p7zip"
-brew "pigz"
+brew 'p7zip'
+brew 'pigz'
 
-brew "pipenv"
-brew "python"
+brew 'pipenv'
+brew 'python'
 brew 'node'
 brew 'nvm'
-brew "rbenv"
+brew 'rbenv'
 brew 'ruby'
-brew "ruby-build"
+brew 'ruby-build'
 
-brew "unrar"
-brew "upx"
-brew "wget"
-brew "curl"
+brew 'unrar'
+brew 'upx'
+brew 'wget'
+brew 'curl'
 brew 'htop'
-brew "nmap"
+brew 'nmap'
 brew 'stow'
 brew 'cowsay'
 
-brew "streamlink"
-brew "tree"
+brew 'streamlink'
+brew 'tree'
 brew 'autojump'
 brew 'vim', args: ['override-system-vi']
 brew 'neovim'
@@ -113,30 +113,28 @@ brew 'sqlite3'
 
 cask 'osxfuse'
 cask 'xquartz'
-cask "kitematic"
-cask "postman"
-cask "qlcolorcode"
-cask "qlimagesize"
-cask "qlmarkdown"
-cask "qlstephen"
-cask "quicklook-csv"
-cask "quicklook-json"
-cask "sip"
+cask 'kitematic'
+cask 'postman'
+cask 'qlcolorcode'
+cask 'qlimagesize'
+cask 'qlmarkdown'
+cask 'qlstephen'
+cask 'quicklook-csv'
+cask 'quicklook-json'
+cask 'sip'
 
 cask 'postgres'
 
 cask 'aerial'
 cask 'alfred'
-cask "dictionaries"
-cask "bartender"
+cask 'dictionaries'
+cask 'bartender'
 cask 'caffeine'
 cask 'discord'
 cask 'docker'
 cask 'dropbox'
-cask 'asepsis'
 cask 'gpg-suite'
 cask 'insomnia'
-cask 'adobe-reader'
 
 brew 'sfnt2woff'
 brew 'sfnt2woff-zopfli'
@@ -172,18 +170,15 @@ cask 'telegram'
 cask 'telegram-desktop'
 cask 'gitter'
 
-cask "vlc"
+cask 'vlc'
+cask 'spark'
 cask 'handbrake'
 
 cask 'hazel'
 cask 'focus'
 cask 'spectacle'
-cask "bettertouchtool"
-cask "mtmr"
+cask 'bettertouchtool'
 cask 'istat-menus'
-cask 'spotify'
-cask 'soundcleod'
-
 cask 'dropbox'
 cask 'google-drive-file-stream'
 cask 'google-photos-backup-and-sync'
@@ -198,21 +193,19 @@ cask 'moom'
 
 cask 'tower2'
 cask 'sourcetree'
-cask "iterm2"
+cask 'iterm2'
 cask 'hyper'
 cask 'visual-studio-code'
 cask 'visual-studio-code-insider'
 
-cask "qlcolorcode"
-cask "qlstephen"
-cask "qlmarkdown"
-cask "quicklook-json"
-cask "qlprettypatch"
-cask "quicklook-csv"
-cask "betterzipql"
-cask "qlimagesize"
-cask "webpquicklook"
-cask "suspicious-package"
+cask 'qlcolorcode'
+cask 'qlstephen'
+cask 'qlmarkdown'
+cask 'quicklook-json'
+cask 'qlprettypatch'
+cask 'quicklook-csv'
+cask 'webpquicklook'
+cask 'suspicious-package'
 
 cask 'font-lato'
 cask 'font-open-sans'
@@ -221,10 +214,10 @@ cask 'font-source-code-pro-for-powerline'
 cask 'font-source-code-pro'
 cask 'font-source-sans-pro'
 cask 'font-source-serif-pro'
-cask "font-meslo-nerd-font"
-cask "font-fira-code"
+cask 'font-meslo-nerd-font'
+cask 'font-fira-code'
 
-cask "font-firacode-nerd-font"
-cask "font-hack-nerd-font"
-cask "font-iosevka-nerd-font"
+cask 'font-firacode-nerd-font'
+cask 'font-hack-nerd-font'
+cask 'font-iosevka-nerd-font'
 

@@ -40,27 +40,27 @@ done
 # tool that makes it easy to customize your color scheme and keep them in sync
 # across Linux and OS X/*BSD at http://geoff.greer.fm/lscolors/
 
-export LSCOLORS='Exfxcxdxbxegedabagacad'
-export LS_COLORS='di=1;34;40:ln=35;40:so=32;40:pi=33;40:ex=31;40:bd=34;46:cd=34;43:su=0;41:sg=0;46:tw=0;42:ow=0;43:'
+# export LSCOLORS='Exfxcxdxbxegedabagacad'
+# export LS_COLORS='di=1;34;40:ln=35;40:so=32;40:pi=33;40:ex=31;40:bd=34;46:cd=34;43:su=0;41:sg=0;46:tw=0;42:ow=0;43:'
 
 # Fun with SSH
-if [ $(ssh-add -l | grep -c "The agent has no identities." ) -eq 1 ]; then
-  if [[ "$(uname -s)" == "Darwin" ]]; then
-    # We're on OS X. Try to load ssh keys using pass phrases stored in
-    # the OSX keychain.
-    #
-    # You can use ssh-add -K /path/to/key to store pass phrases into
-    # the OSX keychain
-    ssh-add -k
-  fi
-fi
+# if [ $(ssh-add -l | grep -c "The agent has no identities." ) -eq 1 ]; then
+#   if [[ "$(uname -s)" == "Darwin" ]]; then
+#     # We're on OS X. Try to load ssh keys using pass phrases stored in
+#     # the OSX keychain.
+#     #
+#     # You can use ssh-add -K /path/to/key to store pass phrases into
+#     # the OSX keychain
+#     ssh-add -k
+#   fi
+# fi
 
-for key in $(find ~/.ssh -type f -a \( -name id_rsa -o -name id_dsa -name id_ecdsa \))
-do
-  if [ -f ${key} -a $(ssh-add -l | grep -c "${key//$HOME\//}" ) -eq 0 ]; then
-    ssh-add ${key}
-  fi
-done
+# for key in $(find ~/.ssh -type f -a \( -name id_rsa -o -name id_dsa -name id_ecdsa \))
+# do
+#   if [ -f ${key} -a $(ssh-add -l | grep -c "${key//$HOME\//}" ) -eq 0 ]; then
+#     ssh-add ${key}
+#   fi
+# done
 
 # Now that we have $PATH set up and ssh keys loaded, configure zgen.
 
@@ -101,19 +101,19 @@ REPORTTIME=2
 TIMEFMT="%U user %S system %P cpu %*Es total"
 
 # Expand aliases inline - see http://blog.patshead.com/2012/11/automatically-expaning-zsh-global-aliases---simplified.html
-globalias() {
-   if [[ $LBUFFER =~ ' [A-Z0-9]+$' ]]; then
-     zle _expand_alias
-     zle expand-word
-   fi
-   zle self-insert
-}
+# globalias() {
+#    if [[ $LBUFFER =~ ' [A-Z0-9]+$' ]]; then
+#      zle _expand_alias
+#      zle expand-word
+#    fi
+#    zle self-insert
+# }
 
-zle -N globalias
+# zle -N globalias
 
-bindkey " " globalias
-bindkey "^ " magic-space           # control-space to bypass completion
-bindkey -M isearch " " magic-space # normal space during searches
+# bindkey " " globalias
+# bindkey "^ " magic-space           # control-space to bypass completion
+# bindkey -M isearch " " magic-space # normal space during searches
 
 # Customize to your needs...
 # Stuff that works on bash or zsh
@@ -133,14 +133,14 @@ fi
 export LOCATE_PATH=/var/db/locate.database
 
 # Load AWS credentials
-if [ -f ~/.aws/aws_variables ]; then
-  source ~/.aws/aws_variables
-fi
+# if [ -f ~/.aws/aws_variables ]; then
+#   source ~/.aws/aws_variables
+# fi
 
 # JAVA setup - needed for iam-* tools
-if [ -d /Library/Java/Home ];then
-  export JAVA_HOME=/Library/Java/Home
-fi
+# if [ -d /Library/Java/Home ];then
+#   export JAVA_HOME=/Library/Java/Home
+# fi
 
 if [[ "$(uname -s)" == "Darwin" ]]; then
   # We're on osx
@@ -155,25 +155,25 @@ fi
 
 # deal with screen, if we're using it - courtesy MacOSXHints.com
 # Login greeting ------------------
-if [ "$TERM" = "screen" -a ! "$SHOWED_SCREEN_MESSAGE" = "true" ]; then
-  detached_screens=$(screen -list | grep Detached)
-  if [ ! -z "$detached_screens" ]; then
-    echo "+---------------------------------------+"
-    echo "| Detached screens are available:       |"
-    echo "$detached_screens"
-    echo "+---------------------------------------+"
-  fi
-fi
+# if [ "$TERM" = "screen" -a ! "$SHOWED_SCREEN_MESSAGE" = "true" ]; then
+#   detached_screens=$(screen -list | grep Detached)
+#   if [ ! -z "$detached_screens" ]; then
+#     echo "+---------------------------------------+"
+#     echo "| Detached screens are available:       |"
+#     echo "$detached_screens"
+#     echo "+---------------------------------------+"
+#   fi
+# fi
 
-if [ -f /usr/local/etc/grc.bashrc ]; then
-  source "$(brew --prefix)/etc/grc.bashrc"
+# if [ -f /usr/local/etc/grc.bashrc ]; then
+#   source "$(brew --prefix)/etc/grc.bashrc"
 
-  function ping5(){
-    grc --color=auto ping -c 5 "$@"
-  }
-else
-  alias ping5='ping -c 5'
-fi
+#   function ping5(){
+#     grc --color=auto ping -c 5 "$@"
+#   }
+# else
+#   alias ping5='ping -c 5'
+# fi
 
 # Speed up autocomplete, force prefix mapping
 zstyle ':completion:*' accept-exact '*(N)'
@@ -217,20 +217,20 @@ fi
 #
 # This snippet is from Mislav Marohnić <mislav.marohnic@gmail.com>'s
 # dotfiles repo at https://github.com/mislav/dotfiles
-dedupe_path() {
-  typeset -a paths result
-  paths=($path)
+# dedupe_path() {
+#   typeset -a paths result
+#   paths=($path)
 
-  while [[ ${#paths} -gt 0 ]]; do
-    p="${paths[1]}"
-    shift paths
-    [[ -z ${paths[(r)$p]} ]] && result+="$p"
-  done
+#   while [[ ${#paths} -gt 0 ]]; do
+#     p="${paths[1]}"
+#     shift paths
+#     [[ -z ${paths[(r)$p]} ]] && result+="$p"
+#   done
 
-  export PATH=${(j+:+)result}
-}
+#   export PATH=${(j+:+)result}
+# }
 
-dedupe_path
+# dedupe_path
 
 # If desk is installed, load the Hook for desk activation
 [[ -n "$DESK_ENV" ]] && source "$DESK_ENV"
