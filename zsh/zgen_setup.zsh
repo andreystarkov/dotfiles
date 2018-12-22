@@ -37,8 +37,8 @@ load-starter-plugin-list() {
   zgen oh-my-zsh plugins/common-aliases
   zgen oh-my-zsh plugins/colored-man-pages
   zgen oh-my-zsh plugins/autojump
-  # zgen oh-my-zsh plugins/docker
-  # zgen oh-my-zsh plugins/docker-compose
+  zgen oh-my-zsh plugins/docker
+  zgen oh-my-zsh plugins/docker-compose
   zgen oh-my-zsh plugins/gitfast
   zgen oh-my-zsh plugins/git-extras
   # zgen oh-my-zsh plugins/git-flow
@@ -47,7 +47,7 @@ load-starter-plugin-list() {
   # zgen oh-my-zsh plugins/lol
   # zgen oh-my-zsh plugins/tmux
   zgen oh-my-zsh plugins/vscode
-#   zgen oh-my-zsh plugins/z
+  zgen oh-my-zsh plugins/z
   # zgen oh-my-zsh plugins/chucknorris
   # zgen oh-my-zsh plugins/Composer
   # zgen oh-my-zsh plugins/copyfile
@@ -76,15 +76,14 @@ load-starter-plugin-list() {
   # zgen load unixorn/bitbucket-git-helpers.plugin.zsh
   zgen load skx/sysadmin-util
   # zgen load StackExchange/blackbox
-  # zgen load supercrabtree/k
+  zgen load supercrabtree/k
   # zgen load b4b4r07/enhancd
   # zgen load fcambus/ansiweather
   zgen load iam4x/zsh-iterm-touchbar
-  # zgen load lukechilds/zsh-better-npm-completion
-  # zgen load g-plane/zsh-yarn-autocompletions
-  # zgen load unixorn/tumult.plugin.zsh
+  zgen load lukechilds/zsh-better-npm-completion
+  zgen load g-plane/zsh-yarn-autocompletions
+  zgen load unixorn/tumult.plugin.zsh
   # zgen load srijanshetty/docker-zsh
-
   zgen load zdharma/fast-syntax-highlighting
   zgen load oldratlee/hacker-quotes
   zgen load tysonwolker/iterm-tab-colors
