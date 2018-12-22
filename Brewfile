@@ -4,9 +4,6 @@ tap 'caskroom/fonts'
 tap 'caskroom/versions'
 tap 'homebrew/bundle'
 tap "homebrew/core"
-tap 'homebrew/fuse'
-tap 'homebrew/science'
-tap 'homebrew/dupes'
 tap 'homebrew/services'
 tap 'bramstein/webfonttools'
 tap 'neovim/neovim'
@@ -19,7 +16,6 @@ tap 'buo/cask-upgrade'
 
 brew 'git'
 brew 'git-flow'
-brew 'git-extra'
 brew 'gist'
 brew 'diffstat'
 brew 'diffutils'
@@ -27,10 +23,7 @@ brew 'diffutils'
 brew 'aria2'
 brew "ack"
 brew 'argon/mas/mas'
-
-brew "imagemagick"
 brew 'pandoc'
-brew 'awscli'
 brew 'bash' # Bash 4
 brew 'bat'
 brew 'coreutils'
@@ -59,10 +52,6 @@ brew "go"
 brew 'jpeg'
 brew 'optipng'
 brew 'redis'
-
-brew "aws-cli"
-brew "heroku-toolbelt"
-brew "fig"
 brew "freetype"
 
 brew "lame"
@@ -79,6 +68,7 @@ brew "pigz"
 brew "pipenv"
 brew "python"
 brew 'node'
+brew 'nvm'
 brew "rbenv"
 brew 'ruby'
 brew "ruby-build"
@@ -89,7 +79,6 @@ brew "wget"
 brew "curl"
 brew 'htop'
 brew "nmap"
-brew 'imagick'
 brew 'stow'
 brew 'cowsay'
 
