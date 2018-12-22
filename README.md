@@ -10,13 +10,22 @@ My awesome configs. Work in progress.
 
 ## Vim/Nvim
 
-  Vim-Plug, Dracula theme, [JS Dev Setup](https://github.com/andreystarkov/dotfiles/blob/master/nvim/init.vim)
+  Vim-Plug with [some plugins](https://github.com/andreystarkov/dotfiles/blob/master/nvim/init.vim)
 
 ![nvim](assets/2.png)
 
-## Quick start
+## macOS
 
-Requires [Nerd fonts](https://github.com/ryanoasis/nerd-fonts)
+  - Core clis/apps/libs/fonts listed at [Brewfile](https://github.com/andreystarkov/dotfiles/blob/master/Brewfile)
+  - OS Tweaks & Settings at [shell script](https://github.com/andreystarkov/dotfiles/blob/master/mac/settings-default.sh)
+
+## VSCode
+
+  - Awesome [settings](https://github.com/andreystarkov/dotfiles/blob/master/vscode/settings.json)
+  - [Plugins & Themes](https://github.com/andreystarkov/dotfiles/blob/master/vscode/extensions.json)
+  - Sync settings [configuration gist](https://gist.github.com/andreystarkov/c5e523ad67b6f416fe2fab36007aad59)
+
+## Quick start
 
 ```bash
   git clone https://github.com/andreystarkov/dotfiles ~/.dotfiles
