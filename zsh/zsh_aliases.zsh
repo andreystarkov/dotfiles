@@ -158,3 +158,9 @@ alias weather="curl -4 http://wttr.in/Moscow"
 alias ls="exa"
 alias lc='colorls -lA --sd'
 alias l='colorls'
+
+alias mr='cd ~/Desktop/dao/dc-monorepo'
+alias plt='cd ~/Desktop/dao/dc-monorepo/sites/platform'
+alias dt='cd ~/Desktop'
+
+alias cmr='code-insiders ~/Desktop/dao/dc-monorepo'
