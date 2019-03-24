@@ -58,13 +58,14 @@ Plug 'maxmellon/vim-jsx-pretty', { 'for': 'javascript' }
 " Plug 'carlitux/deoplete-ternjs', { 'do': 'yarn global add tern' }
 Plug 'ternjs/tern_for_vim', { 'for': 'javascript' }
 Plug 'editorconfig/editorconfig-vim'
-Plug 'dracula/vim', { 'as': 'dracula' }
+" Plug 'dracula/vim', { 'as': 'dracula' }
 " Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
 " Plug 'leafgarland/typescript-vim'
 " Plug 'mhartington/nvim-typescript'
 Plug 'prettier/vim-prettier', { 
       \ 'do': 'npm install', 
       \ 'for': ['javascript', 'typescript', 'css', 'less', 'scss'] }
+Plug 'haishanh/night-owl.vim'
 call plug#end()
 
 if shouldInstallBundles == 1
