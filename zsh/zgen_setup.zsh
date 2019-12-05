@@ -25,29 +25,29 @@ load-starter-plugin-list() {
   bindkey "$terminfo[kcud1]" history-substring-search-down
 
   # zgen oh-my-zsh plugins/colorize
-  zgen oh-my-zsh plugins/command-not-found
-  zgen oh-my-zsh plugins/git
-  zgen oh-my-zsh plugins/github
+  # zgen oh-my-zsh plugins/command-not-found
+  # zzgen oh-my-zsh plugins/git
+  # zzgen oh-my-zsh plugins/github
   # zgen oh-my-zsh plugins/pip
-  zgen oh-my-zsh plugins/node
-  zgen oh-my-zsh plugins/sudo
-  zgen oh-my-zsh plugins/jump
-  zgen oh-my-zsh plugins/yarn
+  # zgen oh-my-zsh plugins/node
+  # zgen oh-my-zsh plugins/sudo
+  # zgen oh-my-zsh plugins/jump
+  # zgen oh-my-zsh plugins/yarn
   # zgen oh-my-zsh plugins/lein
-  zgen oh-my-zsh plugins/common-aliases
-  zgen oh-my-zsh plugins/colored-man-pages
-  zgen oh-my-zsh plugins/autojump
-  zgen oh-my-zsh plugins/docker
-  zgen oh-my-zsh plugins/docker-compose
-  zgen oh-my-zsh plugins/gitfast
-  zgen oh-my-zsh plugins/git-extras
+  # zgen oh-my-zsh plugins/common-aliases
+  # zgen oh-my-zsh plugins/colored-man-pages
+  # zgen oh-my-zsh plugins/autojump
+  # zzgen oh-my-zsh plugins/docker
+  # zzgen oh-my-zsh plugins/docker-compose
+  # zzgen oh-my-zsh plugins/gitfast
+  # zzgen oh-my-zsh plugins/git-extras
   # zgen oh-my-zsh plugins/git-flow
   zgen oh-my-zsh plugins/history
   # zgen load peterhurford/git-it-on.zsh
   # zgen oh-my-zsh plugins/lol
   # zgen oh-my-zsh plugins/tmux
-  zgen oh-my-zsh plugins/vscode
-  zgen oh-my-zsh plugins/z
+  # zgen oh-my-zsh plugins/vscode
+  # zgen oh-my-zsh plugins/z
   # zgen oh-my-zsh plugins/chucknorris
   # zgen oh-my-zsh plugins/Composer
   # zgen oh-my-zsh plugins/copyfile
@@ -74,9 +74,9 @@ load-starter-plugin-list() {
   zgen load djui/alias-tips
   # zgen load unixorn/git-extra-commands
   # zgen load unixorn/bitbucket-git-helpers.plugin.zsh
-  zgen load skx/sysadmin-util
+  # zgen load skx/sysadmin-util
   # zgen load StackExchange/blackbox
-  zgen load supercrabtree/k
+  # zgen load supercrabtree/k
   # zgen load b4b4r07/enhancd
   # zgen load fcambus/ansiweather
   zgen load iam4x/zsh-iterm-touchbar
@@ -91,8 +91,7 @@ load-starter-plugin-list() {
   zgen load Tarrasch/zsh-autoenv
 
   # zgen load denysdovhan/spaceship-prompt spaceship
-  zgen load bhilburn/powerlevel9k powerlevel9k
-
+  # zgen oh-my-zsh plugins/chucknorris
     if [ $(uname -a | grep -ci Darwin) = 1 ]; then
     zgen oh-my-zsh plugins/brew
     # zgen oh-my-zsh plugins/brew-cask

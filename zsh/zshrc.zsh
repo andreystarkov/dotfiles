@@ -259,6 +259,7 @@ GIT_UNPUSHED="⇡"
 
 YARN_ENABLED=true
 # eval $(dircolors -b $HOME/.dircolors)
+bash ~/.dotfiles/zsh/powerlevel9/defaulttheme.zsh
 
 export NVM_DIR="$HOME/.nvm"
   [ -s "/usr/local/opt/nvm/nvm.sh" ] && . "/usr/local/opt/nvm/nvm.sh"  # This loads nvm

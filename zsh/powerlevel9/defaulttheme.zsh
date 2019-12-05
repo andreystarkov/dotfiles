@@ -1,4 +1,6 @@
 
+zgen load bhilburn/powerlevel9k powerlevel9k
+
 POWERLEVEL9K_MODE='awesome-patched'
 
 POWERLEVEL9K_PROMPT_ON_NEWLINE=true
